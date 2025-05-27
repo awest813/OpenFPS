@@ -20,12 +20,6 @@ OpenFPS is still under development, but it is a valuable resource for anyone who
 https://github.com/user-attachments/assets/9f729762-60f7-4c99-8dfa-f62edb01e430
 
 
-# Attention to detail:
-Bullets, full vs empty:
-
-![full](https://github.com/IMYdev/OpenFPS/blob/main/full.png)
-![empty](https://github.com/IMYdev/OpenFPS/blob/main/empty.png)
-
 # LICENSING:
 Code is licensed under MIT License.
 
