@@ -33,7 +33,7 @@ func _input(event):
 
 func nuke():
 	if ads:
-		animplayer.play_backwards(ads_animation)
+		animplayer.play(ads_animation, -1, -1.0, true)
 		nuke_animplayer.play("tablet")
 		is_nuke = true
 	else:
@@ -107,7 +107,7 @@ func ads_func():
 	else:
 		if ads and reload_finished:
 			ads = false
-			animplayer.play_backwards(ads_animation)
+			animplayer.play(ads_animation, -1, -1.0, true)
 		elif ads and not reload_finished or inspecting:
 			pass
 		elif not ads and not reload_finished or inspecting:
